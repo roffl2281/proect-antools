@@ -317,55 +317,182 @@ display: flex;
 
 
 
-
-
-
-
-
-
-
-
-
-
-.kartka .Visit:hover {
-    background: #FF6E30;
-}
-
-
-.button-3 {
-    background: #ff7e00;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-
-}
-
-button a {
-    color: white;
-    text-decoration: none;
-}
-
-button:hover {
-    background: #ff4500;
-}
-.kartka {
+.tools-list {
+    column-gap: 25px;
+    row-gap: 100px;
     display: flex;
-}
-.ul-li-img {
-    width: 64px;
-    height: 64px;
-}
-
-.kartka-h4 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-.kartka-h5 {
-    font-size: 14px;
-    color: orange;
-    margin-bottom: 10px;
-      
-}
-
+    flex-wrap: wrap;
+    justify-content: center;
     
+
+}
+.div-most {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+.tools-tiem {
+    flex-basis: calc((100% - 50px) / 3);
+    border-radius: 8px;
+    background-color: #1e1e1e;
+  list-style-type: none;
+  width: 393px;
+  height: 295px;
+  
+  
+}
+.tool-naem {
+font-family: "Poppins";
+font-weight: 500; 
+font-size: 24px;
+margin-bottom: 3px;
+line-height: 1.5;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 33px 33px;
+}
+.button-3 {
+    border: 1px solid;
+    background-color: #1E252B ;
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button-3 {
+border-color: #FFFFFF ;
+
+}
+.button-3-a {
+    color: #FF6E30;
+    text-decoration: none;
+    
+}
+.tool-heading {
+    display: flex;
+    gap: 30px;
+    
+}
+.most-p {
+    margin-bottom: 100px;
+}
+.action-link {
+    background-color: #FF6E30;
+    border: none;
+    color: white;
+    padding: 8px 26px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+.action-list {
+    display: flex;
+    gap: 12px;
+}
+.tool-div {
+    display: flex;
+    
+    gap: 124px;
+}
+.input-seiv[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    width: 32px;
+    height: 32px;
+    background-image: url("img/Group 1375.png"); /*НЕ отмеченного чекбокса */
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  /* Когда чекбокс отмечен */
+  .input-seiv[type="checkbox"]:checked {
+    background-image: url("img/seiv_shek.png"); /*ОТМЕЧЕННОГО чекбокса */
+  }
+  .input-liv[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    width: 32px;
+    height: 32px;
+    background-image: url("img/Group 1376.png"); /*НЕ отмеченного чекбокса */
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  /* Когда чекбокс отмечен */
+  .input-liv[type="checkbox"]:checked {
+    background-image: url("img/liv.png"); /*ОТМЕЧЕННОГО чекбокса */
+  }
+  .div-trusted {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+
+
+.div-newcomer {
+    display: flex;
+    gap: 197px;
+}
+.newcomer-h2 {
+    font-family: 'Poppins'; 
+    font-weight: 500; 
+    font-size: 48px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+} 
+.newcomer-button {
+    margin-top: 60px;
+    background-color: #FF6E30;
+    border: none;
+    color: white;
+    padding: 17px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}   
+.div-div-newcomer {
+    width: 427px;
+    height: 300px;
+}
+.div-newcomer-shek {
+    width: 1224px;
+    height: 638px;
+}
+.ul-newcomer-shek {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.newcomer-tiem {
+    display: flex;
+    flex-basis: calc((100% - 50px) / 2);
+    border-radius: 8px;
+    background-color: #1e1e1e;
+  list-style-type: none;
+  width: 288px;
+  height: 284px;
+  justify-content: right;
+}
+
