@@ -2,6 +2,11 @@ body {
     font-family: 'Poppins'; /* Шрифт */
     background-color: #1E252B; 
 }
+.container {
+max-width: 1255px;
+margin: 0 auto ;
+padding: 0 15px;
+}
 h2  {
     color: #FFFFFF ;
 }
@@ -337,10 +342,12 @@ display: flex;
     border-radius: 8px;
     background-color: #1e1e1e;
   list-style-type: none;
-  width: 393px;
+  width: 203px;
   height: 295px;
   
-  
+  display: grid; 
+   
+grid-template-rows: auto;
 }
 .tool-naem {
 font-family: "Poppins";
@@ -451,9 +458,12 @@ border-color: #FFFFFF ;
 
 
 
-.div-newcomer {
+.newcomer-container {
     display: flex;
-    gap: 197px;
+    justify-content: space-between;
+}
+.newcomer-content {
+    max-width: 420px;
 }
 .newcomer-h2 {
     font-family: 'Poppins'; 
@@ -472,27 +482,31 @@ border-color: #FFFFFF ;
     border-radius: 6px;
     cursor: pointer;
 }   
-.div-div-newcomer {
-    width: 427px;
-    height: 300px;
-}
-.div-newcomer-shek {
-    width: 1224px;
-    height: 638px;
-}
+
+
 .ul-newcomer-shek {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 50px;
+    max-width: 600px;
+
 
 }
 .newcomer-tiem {
     display: flex;
+    
     flex-basis: calc((100% - 50px) / 2);
     border-radius: 8px;
     background-color: #1e1e1e;
   list-style-type: none;
-  width: 288px;
-  height: 284px;
-  justify-content: right;
+
+}
+
+.article-newcomer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 33px 33px;
 }
 
