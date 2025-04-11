@@ -52,7 +52,7 @@ p {
     filter: brightness(55%);
     font-weight: 500; /* Средняя толщина */
     font-size: 18px;
-
+    text-align: center;
 }
 .nav-become {
     display: flex;
@@ -143,6 +143,8 @@ background-repeat: no-repeat;
     align-items: center;
 }
 .awesome-p {
+    font-family: 'Poppins';  
+    font-size: 18px;
     font-weight: 400;
 }
 .h2-most {
@@ -150,8 +152,12 @@ background-repeat: no-repeat;
     font-weight: 500;
 }
 .most-p {
+    font-family: 'Poppins';  
+    font-size: 18px;
     font-weight: 500;
+    text-align: center;
 }
+
 .main-section {
     display: flex;
     margin-left: 102px;
@@ -161,7 +167,7 @@ background-repeat: no-repeat;
 .header-flex {
     display: flex;
     justify-content: space-between;
-    margin: 26px;
+    padding: 48px 122px;
 }
 .a-meni {
     color: #FFFFFF;
@@ -213,7 +219,7 @@ background-repeat: no-repeat;
   margin-right: 108px;
    margin-top: 70px;
    margin-left: 108px;
-    padding: 0.5px;
+   padding: 0.5px;
     justify-content: space-between;
     line-height: 2; 
     
@@ -242,9 +248,7 @@ background-repeat: no-repeat;
 
 
 
-section {
-display: flex;
-}
+
 
 
 
@@ -307,19 +311,38 @@ display: flex;
 
 
 
-
-.nav-trusted {
-    text-align: center;
-    background-color: #1e1e1e; /* Темный фон */
-    padding: 20px;
+.tool-desc {
+    line-height: 1.8;
+}
+.tool-suba {
+    color: #FFA537 ;
+}
+ .div-trusted {
+    display: flex;
+    justify-content: center;
+    
 }
 
-.nav-trusted h4 {
+.brand-container {
+    background-color: #242C32;
+    border-radius: 8px;
+    padding: 55px 82px;
+
+}
+.brand-title {
+    display: flex;
+    justify-content: center;
     color: #fff;
     font-size: 18px;
-    margin-bottom: 15px;
+   
 }
+.brand-list {
+    display: flex;
+    justify-content: center;
+    gap: 107px;
+    margin-top: 55px;
 
+}
 
 
 .tools-list {
@@ -335,19 +358,25 @@ display: flex;
     display: flex;
     justify-content: center;
     margin-top: 200px;
+    margin-bottom: 200px;
 
 }
 .tools-tiem {
     flex-basis: calc((100% - 50px) / 3);
     border-radius: 8px;
-    background-color: #1e1e1e;
+    background-color: #1E252B;
   list-style-type: none;
   width: 203px;
   height: 295px;
-  
+
   display: grid; 
-   
+
 grid-template-rows: auto;
+}
+.tools-tiem:hover {
+    filter :brightness(100%);
+    background: #242C32;
+background: linear-gradient(23deg,rgba(36, 44, 50, 1) 42%, rgba(40, 50, 54, 1) 84%, rgba(235, 108, 0, 0.9) 100%);
 }
 .tool-naem {
 font-family: "Poppins";
@@ -389,14 +418,24 @@ border-color: #FFFFFF ;
     margin-bottom: 100px;
 }
 .action-link {
-    background-color: #FF6E30;
+
     border: none;
     color: white;
+    filter :brightness(55%);
     padding: 8px 26px;
     font-size: 16px;
     border-radius: 6px;
     cursor: pointer;
 }
+
+.action-link:hover {
+    background-color: #FF6E30;
+    filter: brightness(100%);
+}
+.tool-head {
+    margin-bottom: 3px;
+}
+
 
 
 
@@ -407,8 +446,8 @@ border-color: #FFFFFF ;
 }
 .tool-div {
     display: flex;
-    
-    gap: 124px;
+    justify-content: space-between;
+
 }
 .input-seiv[type="checkbox"] {
     appearance: none;
@@ -417,7 +456,7 @@ border-color: #FFFFFF ;
   
     width: 32px;
     height: 32px;
-    background-image: url("img/Group 1375.png"); /*НЕ отмеченного чекбокса */
+    background-image: url("img/Group 1375.png"); 
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -425,9 +464,9 @@ border-color: #FFFFFF ;
     outline: none;
   }
   
-  /* Когда чекбокс отмечен */
+  
   .input-seiv[type="checkbox"]:checked {
-    background-image: url("img/seiv_shek.png"); /*ОТМЕЧЕННОГО чекбокса */
+    background-image: url("img/seiv_shek.png"); 
   }
   .input-liv[type="checkbox"] {
     appearance: none;
@@ -436,7 +475,7 @@ border-color: #FFFFFF ;
   
     width: 32px;
     height: 32px;
-    background-image: url("img/Group 1376.png"); /*НЕ отмеченного чекбокса */
+    background-image: url("img/Group 1376.png"); 
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -444,26 +483,33 @@ border-color: #FFFFFF ;
     outline: none;
   }
   
-  /* Когда чекбокс отмечен */
+  
   .input-liv[type="checkbox"]:checked {
-    background-image: url("img/liv.png"); /*ОТМЕЧЕННОГО чекбокса */
+    background-image: url("img/liv.png"); 
   }
-  .div-trusted {
+ 
+
+  .section-load {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
   }
 
 
 
 
 
-
+.section-Newcomer {
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
 .newcomer-container {
     display: flex;
     justify-content: space-between;
 }
 .newcomer-content {
     max-width: 420px;
+
 }
 .newcomer-h2 {
     font-family: 'Poppins'; 
