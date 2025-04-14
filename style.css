@@ -323,17 +323,27 @@ background-repeat: no-repeat;
     
 }
 
+
 .brand-container {
-    background-color: #242C32;
+    background: #2C353D;
+    background: linear-gradient(338deg,rgba(44, 53, 61, 1) 80%,rgba(255, 72, 66, 1) 140%);
+   
     border-radius: 8px;
     padding: 55px 82px;
-
+    
 }
+
+
 .brand-title {
+    font-family: 'Poppins'; 
+    font-weight: 500; 
+    
+    font-size: 24px;
+    
     display: flex;
     justify-content: center;
     color: #fff;
-    font-size: 18px;
+    
    
 }
 .brand-list {
@@ -439,7 +449,11 @@ border-color: #FFFFFF ;
 
 
 
-
+.newcomer-tiem:hover {
+    filter :brightness(100%);
+    background: #242C32;
+background: linear-gradient(23deg,rgba(36, 44, 50, 1) 42%, rgba(40, 50, 54, 1) 84%, rgba(235, 108, 0, 0.9) 100%);
+}
 .action-list {
     display: flex;
     gap: 12px;
@@ -544,7 +558,6 @@ border-color: #FFFFFF ;
     
     flex-basis: calc((100% - 50px) / 2);
     border-radius: 8px;
-    background-color: #1e1e1e;
   list-style-type: none;
 
 }
